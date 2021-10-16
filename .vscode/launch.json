@@ -1,0 +1,58 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "Launch Program",
+        //     "program": "expose/javascript/part1-question1.js",
+        //     "request": "launch",
+        //     "skipFiles": [
+        //         "<node_internals>/**"
+        //     ],
+        //     "type": "pwa-node"
+        // },
+
+        // {
+        //     "name": "Launch Program",
+        //     "program": "expose/javascript/part2-question1-11.js",
+        //     "request": "launch",
+        //     "skipFiles": [
+        //         "<node_internals>/**"
+        //     ],
+        //     "type": "pwa-node"
+        // },
+        // {
+        //     "name": "Launch Program",
+        //     "program": "expose/javascript/part2-question12.js",
+        //     "request": "launch",
+        //     "skipFiles": [
+        //         "<node_internals>/**"
+        //     ],
+        //     "type": "pwa-node"
+        // },
+
+        // {
+        //     "name": "Launch Program",
+        //     "program": "expose/javascript/part2-question13-15.js",
+        //     "request": "launch",
+        //     "skipFiles": [
+        //         "<node_internals>/**"
+        //     ],
+        //     "type": "pwa-node"
+        // },
+
+        
+
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "expose/javascript/part2-question18.js"
+        }
+    ]
+}
