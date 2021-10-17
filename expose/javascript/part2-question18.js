@@ -1,21 +1,15 @@
-var interval = 0;
+let count = 0;
+let interval = setInterval(clock, 1000);
+let timeout;
 
-if(interval < 10000){
-    interval = setInterval(clock, 1000);
-    console.log(interval);
-}
-else{
-    clearTimeout(time);
-}
-
-var timeout;
 function clock(){
     let d = new Date();
     let time = d.toLocaleTimeString();
     timeout = setTimeout(function(){ console.log(time); }, 0);
-    
+    count++;
+    if(count > 10){
+        clearInterval(interval);
+    }
 }
-// function stopClock(){
-//     clearTimeout(time);
-// }
+clearTimeout(timeout);
 
